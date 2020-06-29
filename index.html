@@ -2,10 +2,273 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width" , initial-scale-1.0 />
+    <meta https-quiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ash Coding Club</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./particle folder/particles.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
   </head>
   <body>
-    <p>hello</p>
+    
+      <section class="navBar">
+        <div class="navigationBar">
+          <button class="homeButton">
+            <a href="index.html" class="navButtonHome"
+              >Ash Coding Club</a
+            >
+          </button>
+          <button class="navButton gitButton">
+            <a href="https://github.com/Californium98" class="navButtonA"
+              >Git: @Californium98</a
+            >
+          </button>
+          <button class="navButton">
+            <a
+              href="https://www.instagram.com/victor.chapman_/"
+              class="navButtonA"
+              >Insta: @victor.chapman_</a
+            >
+            <button class="navButton calendarButton">
+              <a href="https://calendar.google.com/calendar?cid=YXNoLm5sX2ZlMnE4MTllbmp0Zzdub2pvYmRtMmN0bjQwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" class="navButtonA"
+                >Google Calendar</a
+              >
+          </button>
+          <div class="burger" id="burger">
+            <div class="bline"></div>
+            <div class="bline"></div>
+            <div class="bline"></div>
+          </div>
+          <div class="sideMenu" id="sideMenu">
+            <div class="sideNav">
+              <div class="sideNavTop">
+                <button class="navButton calendarButton sideButton">
+                  <a href="https://calendar.google.com/calendar?cid=YXNoLm5sX2ZlMnE4MTllbmp0Zzdub2pvYmRtMmN0bjQwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" class="navButtonA"
+                    >Google Calendar</a
+                  >
+              </div>
+              <div class="sideNavBottom">
+                <button class="navButton gitButton sideButton" >
+                  <a href="https://github.com/Californium98" class="navButtonA"
+                    >Git: @Californium98</a
+                  >
+                </button>
+                <button class="navButton sideButton">
+                  <a
+                    href="https://www.instagram.com/victor.chapman_/"
+                    class="navButtonA"
+                    >Insta: @victor.chapman_</a
+                  >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="codeEditorLine">
+        <p class="sign-up-header codeEditorHeader" id="codeEditorHeader">Learn to Code</p>
+        <div class="codeEditor">
+          <div class="codeEditorSideBar">
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li>10</li>
+              <li>11</li>
+              <li>12</li>
+            </ul>
+          </div>
+          <ul>
+            <li class="top-line">
+              <span class="variable">const</span>
+              <span class="identifier">you</span> <span class="equal">=</span>
+              <span class="variable">new</span>
+              <span class="SWEngineer">aspiringCoder</span>();
+            </li>
+            <li class="emptyLine"></li>
+            <li>
+              <span class="variable">let</span> codingIsHard
+              <span class="equal">=</span> <span class="bool">true</span>;
+            </li>
+            <li class="emptyLine"></li>
+            <li><span class="variable">while</span> (codingIsHard) {</li>
+            <li>
+              <span class="calledIdentifier">you</span>.<span class="function"
+                >workInCodingClub</span
+              >();
+            </li>
+            <li>}</li>
+            <li class="emptyLine"></li>
+            <li>
+              <span class="calledIdentifier">you</span>.<span class="function"
+                >becomeAGreatProgrammer</span
+              >()
+            </li>
+            <li>
+              .<span class="function">then</span>(()
+              <span class="variable">=&gt;</span>
+              <span class="calledIdentifier">you</span>.<span class="function"
+                >getDreamJob</span
+              >())
+            </li>
+            <li>
+              .<span class="function">catch</span>(()
+              <span class="variable">=&gt;</span>
+              <span class="calledIdentifier">you</span>.<span class="function"
+                >keepWorkingInCodingClub</span
+              >());
+            </li>
+          </ul>
+        </div>
+      </section>
+     
+      <section class="resourceSection">
+        <div class="sign-up-grid">
+          <div class="resources-container">
+            <p class="resource-header">Resources</p>
+            <div class="resources">
+              <a href="https://www.youtube.com/watch?v=3IlaxZf3-s8" class="resource-link">
+                <img src="./assetts/clement.png" class="resource-image">
+                <div class="resource-image-text">
+                  <p class="resource-image-text1">Cl&eacute;ment Mihailescu</p>
+                  <p class="resource-image-text2">Get inspired by the entrepreneur and front-end software engineer Clement Mihailescu.</p>
+                </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=rfscVS0vtbw"class="resource-link">
+                <img src="./assetts/freecodingcamp.png" class="resource-image">
+                <div class="resource-image-text">
+                  <p class="resource-image-text1">Free Coding Camp</p>
+                  <p class="resource-image-text2">Learn Python quickly with the four hour Python course created by Free Coding Camp.</p>
+                </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc"class="resource-link">
+                <img src="./assetts/mosh.png" class="resource-image">
+                <div class="resource-image-text">
+                  <p class="resource-image-text1 mosh">Programming with Mosh</p>
+                  <p class="resource-image-text2">Learn all the fundementals of Python in a high quality course created by Mosh.</p>
+                </div>
+              </a>
+              <a href="https://www.youtube.com/watch?v=JeznW_7DlB0" class="resource-link">
+                <img src="./assetts/techwithtim.png" class="resource-image">
+                <div class="resource-image-text">
+                  <p class="resource-image-text1">Tech with Tim</p>
+                  <p class="resource-image-text2">Learn about the basics of object oriented programming and start creating your first game.</p>
+                </div>
+              </a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section>
+        <div class="aboutContainer">
+          <p class="aboutHeader sign-up-header">About</p>
+          <div class="aboutGrid">
+            <div class="aboutDes">
+              <img class="classImage"src="assetts/default-image.png">
+              <p class="aboutPersonDes">*will put in class image.</p>
+            </div>
+            <div class="aboutText">
+              <p class="victorAbout"> <span class="red"><b>Victor (Grade 10)</b></span>: "I enjoy coding because it can be a collaborative and fulfilling activity. Once you make something you are inspired to make more."</p>
+              <p class="victorAbout"> <span class="blue"><b>Nevin (Grade 10)</b></span>: "I like to code because you can use what you learn to create stuff, and it's not just about memorization, but about actually creating things."</p>
+            </div>
+            
+            <div class="aboutPerson">
+              <div class="topAbout"> 
+              </div>
+              <div class="botAbout">
+                <div class="botAbout1">
+                  <button class="copyEmail" id="copyEmail1">Copy Email</button>
+                </div>
+                <div class="botAbout2">
+                  <p class="aboutPersonDes nevin">Nevin Puri</p>
+                </div>
+              </div>
+            </div>
+            <div class="aboutPerson">
+              <div class="topAbout">
+              </div>
+              <div class="botAbout">
+                <div class="botAbout1">
+                  <button class="copyEmail copyEmail2" id="copyEmail2">Copy Email</button>                
+                 </div>
+                 <div class="botAbout2">
+                   <p class="aboutPersonDes">Victor Chapman</p>
+                 </div>
+              </div>
+            </div>
+            <div class="aboutPerson">
+              <div class="topAbout">
+                
+              </div>
+              <div class="botAbout">
+                <div class="botAbout1">
+                  <button class="copyEmail copyEmail3" id="copyEmail3">Copy Email</button>
+                </div>
+                <div class="botAbout2">
+                  <p class="aboutPersonDes">Marcos Teixeira</p>
+                </div>
+              </div>
+            </div>
+            <div class="aboutPerson">
+              <div class="topAbout">
+                
+              </div>
+              <div class="botAbout">
+                <div class="botAbout1">
+                  <button class="copyEmail copyEmail4" id="copyEmail4">Copy Email</button>
+                </div>
+                <div class="botAbout2">
+                  <p class="aboutPersonDes">Malo Hedouin</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section>
+          <div class="sign-up-container">
+            <p class="sign-up-header">Sign Up</p>
+            <div class="sign-up-box" id="sign-up-box">
+              <label class="Text-Box-Description" id="get-rid1">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                value
+                placeholder="Nevin Puri"
+                class="Text-Box"
+                id="get-rid2"
+              />
+              <label class="Text-Box-Description" id="get-rid3">ASH Email</label>
+              <input
+                type="text"
+                name="name"
+                value
+                placeholder="nevinpuri@ash.nl"
+                class="Text-Box"
+                id="get-rid4"
+              />
+              <label class="Text-Box-Description" id="get-rid5">Grade</label>
+              <input
+                type="text"
+                name="name"
+                value
+                placeholder="Grade 10"
+                class="Text-Box"
+                id="get-rid6"
+              />
+              <button class="sign-up-submit-button" id="submit-button">Submit</button>
+              <img class="thanks-gif" src="./assetts/giphy.gif" id="thanks-gif" />
+            </div>
+          </div>
+        </div>
+      </section>
   </body>
 </html>
